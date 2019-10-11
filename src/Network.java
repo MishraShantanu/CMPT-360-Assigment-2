@@ -27,28 +27,29 @@ public class Network {
 //END: READ ONLY
 //****************
 
-		//WRITE YOUR NSID: 
+        //WRITE YOUR NSID:
 
-		//start: edit and write your code here 
-		int test = 0;
-		for(int i = 0; i<n; i++) {
-		    int []arr = new int[n-(i+1)];
-		    System.arraycopy(D,i+1,arr,0,(n-(i+1)));
-		    Arrays.sort(arr);
-            if (i < n - 1) {
-                if(test<D[i]-arr[0]){
-		        test=D[i]-arr[0];
-            }
+        //start: edit and write your code here
+        int test = 0;
+        for (int i = 0; i < n; i++) {
+            //int []arr = new int[n-(i+1)];
+//		    System.arraycopy(D,i+1,arr,0,(n-(i+1)));
+//		    Arrays.sort(arr);
+//            if (i < n - 1) {
+//                if(test<D[i]-arr[0]){
+//		        test=D[i]-arr[0];
+//            }
+            for (int j = i+1; j < n; j++) {
+                if (test < D[i] - D[j]) {
+                    test = D[i] - D[j];
+                }
             }
 
-//
 
 
         }
-		return test;
-        //end: write your code here 
-
-
+        return test;
+        //end: write your code here
 
     }
 //****************
