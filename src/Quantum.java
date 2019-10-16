@@ -14,7 +14,17 @@ public class Quantum {
 //****************
 //START: READ ONLY
 //****************
-		
+    public static int fill(int a[][],int i,int X,int count){
+
+        for(int j=0;j<2*X;j++){
+
+            a[i][j] = 1;
+        }
+        count++;
+
+        return count;
+    }
+
 	
     /**     
 	 * @param n : The number of buses
@@ -25,17 +35,21 @@ public class Quantum {
 //END: READ ONLY
 //****************
 
-		//WRITE YOUR NSID: 
-		
-		//start: edit and write your code here 
-		int test = X;
-		
-		return test;
-        //end: write your code here 
-	 
-		 
-		
-    }
+        //WRITE YOUR NSID:
+
+        //start: edit and write your code here
+        int test = X;
+        int count = 0;
+        int a[][] = new int[2 * X][2 * X];
+        for (int i = 0; i < 2 * X; i++) {
+              count = fill(a,i,X,count);
+        }
+            return test;
+            //end: write your code here
+
+
+        }
+
 //****************
 //START: READ ONLY
 //****************
