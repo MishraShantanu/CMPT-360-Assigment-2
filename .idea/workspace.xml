@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="745eb880-9dcc-4cd5-8ad5-20fa37ac90f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuantamA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quantum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Quantum.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Network.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Quantum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Quantum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Quantum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quantum.java" afterDir="false" />
@@ -20,11 +24,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Network.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Quantum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="313">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/QuantamA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Q2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,15 +109,13 @@
         <option value="$PROJECT_DIR$/Network.txt" />
         <option value="$PROJECT_DIR$/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/Network.java" />
+        <option value="$PROJECT_DIR$/src/permutation.java" />
         <option value="$PROJECT_DIR$/Quantum.txt" />
         <option value="$PROJECT_DIR$/src/Quantum.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/printAllRecursive.java" />
+        <option value="$PROJECT_DIR$/src/Q2.java" />
+        <option value="$PROJECT_DIR$/src/NQueenProblem.java" />
+        <option value="$PROJECT_DIR$/src/QuantamA.java" />
       </list>
     </option>
   </component>
@@ -140,16 +175,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Quantum">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+  <component name="RunManager" selected="Application.QuantamA">
+    <configuration name="HeapAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapAlgo" />
       <module name="CMPT360Assigment2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Network" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Network" />
+    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NQueenProblem" />
+      <module name="CMPT360Assigment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q2" />
+      <module name="CMPT360Assigment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuantamA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuantamA" />
       <module name="CMPT360Assigment2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,9 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuantamA" />
+        <item itemvalue="Application.Q2" />
+        <item itemvalue="Application.NQueenProblem" />
+        <item itemvalue="Application.HeapAlgo" />
         <item itemvalue="Application.Quantum" />
-        <item itemvalue="Application.Network" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +235,7 @@
       <workItem from="1570664648969" duration="5311000" />
       <workItem from="1570813883923" duration="2718000" />
       <workItem from="1571084291672" duration="611000" />
-      <workItem from="1571251098297" duration="4348000" />
+      <workItem from="1571251098297" duration="35879000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Question by implementing Arrays function in for loop">
       <created>1570669596578</created>
@@ -197,7 +248,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22080000" />
+    <option name="totallyTimeSpent" value="53611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,17 +263,17 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.25101215" />
-      <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" visible="true" weight="0.25101215" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Structure" order="0" sideWeight="0.6247191" side_tool="true" weight="0.25101215" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.37443945" visible="true" weight="0.25101215" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57726467" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.12255773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
@@ -243,24 +294,24 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Structure" order="0" sideWeight="0.6247191" side_tool="true" visible="true" weight="0.25101215" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.37443945" visible="true" weight="0.25101215" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20959148" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26465365" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -309,6 +360,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Quantum.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -323,10 +381,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Quantum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="313">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuantamA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

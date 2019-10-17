@@ -12,6 +12,11 @@ public class Network {
 
 // YOU CAN DEFINE YOUR OWN FUNCTIONS HERE IF YOU REALLY NEED ONE
 
+//    public static int[] metric(int []D, int n, int start, int end) {
+//
+//    }
+
+
 //****************
 //START: READ ONLY
 //****************
