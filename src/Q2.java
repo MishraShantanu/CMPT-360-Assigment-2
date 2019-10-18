@@ -1,56 +1,37 @@
-
-import java.io.*;
-import java.util.ArrayList;
-
-//****************
 public class Q2 {
-
-    public static void makeZero(int array[][]){
-        for(int col=0;col<5;col++){
-            for(int row=0;row<5;row++) {
-                array[col][row] = 0;
+    static void printSolution(int board[][])
+    {
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                System.out.print(" " + board[i][j] + " ");
             }
+            System.out.println();
         }
     }
+    static void solveNQUtil(int leadingZeros, int startingRow, int board[][])
+    {
+        int columns = board[0].length;
 
-    public static void fill1(int array[][],int row ){
-        int col = array.length-1;
-        //  System.out.print("A");
-        for(;col<5;col++) {
-            //   System.out.print("B");
-            for (; row < 5; row++) {
-                // System.out.print("c");
-                array[col][row] = 1;
+        if (leadingZeros == columns) return;
+
+        for (int ones = 1; leadingZeros+ones <= columns ; ones++)
+        {
+            int curRow = startingRow + ones - 1;
+            for (int i=0 ; i<ones ; i++){
+                board[curRow][i+leadingZeros] = 1;
             }
         }
-        for(int i=0;i<5;i++){
-            // System.out.print("B");
-            for (int j=0;j<5;j++){
-                System.out.print(array[i][j]);
-                //  System.out.print("L");
-            }
-            System.out.println(" ");
-        }
-        System.out.println(" ");
-        makeZero(array);
+        solveNQUtil(leadingZeros + 1, startingRow + columns - leadingZeros, board);
     }
 
+    public static void main(String[] args)
+    {
+        int totalColumns = 4;
+        int rows = (int)((totalColumns+1)*totalColumns*0.5);
 
+        int board[][] = new int[rows][totalColumns];
 
-
-
-
-    public static void main(String[] args) {
-
-        int array[][] = new int[5][5];
-
-            for(int row=0;row<5;row++){
-                fill1(array,row);
-            }
-
-
-
-
+        solveNQUtil(0, 0, board);
+        printSolution(board);
     }
-
 }

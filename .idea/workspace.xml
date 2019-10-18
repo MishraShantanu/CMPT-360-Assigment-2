@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="745eb880-9dcc-4cd5-8ad5-20fa37ac90f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuantamA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quantum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Quantum.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Network.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Quantum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMPT360Assigment2/Quantum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quantum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quantum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuantamA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuantamA.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Quantum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="51">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="42" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -45,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/QuantamA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state relative-caret-position="119">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Q2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -113,8 +103,8 @@
         <option value="$PROJECT_DIR$/Quantum.txt" />
         <option value="$PROJECT_DIR$/src/Quantum.java" />
         <option value="$PROJECT_DIR$/src/printAllRecursive.java" />
-        <option value="$PROJECT_DIR$/src/Q2.java" />
         <option value="$PROJECT_DIR$/src/NQueenProblem.java" />
+        <option value="$PROJECT_DIR$/src/Q2.java" />
         <option value="$PROJECT_DIR$/src/QuantamA.java" />
       </list>
     </option>
@@ -235,7 +225,7 @@
       <workItem from="1570664648969" duration="5311000" />
       <workItem from="1570813883923" duration="2718000" />
       <workItem from="1571084291672" duration="611000" />
-      <workItem from="1571251098297" duration="35879000" />
+      <workItem from="1571251098297" duration="43132000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Question by implementing Arrays function in for loop">
       <created>1570669596578</created>
@@ -248,7 +238,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53611000" />
+    <option name="totallyTimeSpent" value="60864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,7 +262,7 @@
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.37443945" visible="true" weight="0.25101215" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57726467" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27531084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.12255773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,25 +373,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Q2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Quantum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="51">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="42" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuantamA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
